@@ -1,10 +1,4 @@
 import streamlit as st
-import pyperclip
-
-def copiar_texto(texto):
-    pyperclip.copy(texto)
-    st.success("Texto copiado!")
-
 
 def acessos(name:str, user:str, password:str, cor="#f0f0f5"):
     # Criar o card com informações
